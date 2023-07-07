@@ -25,12 +25,13 @@
   @media screen  and (max-width:480px){
     .wrapper{
         flex-direction: column-reverse;
+        margin-bottom: 10px;
     }
     .social{
         gap: 50px;
     }
     .content{
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 300;
     }
   }

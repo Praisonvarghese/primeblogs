@@ -110,7 +110,7 @@ export const items = [
       id: 4,
       img: "https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "ദില്ലി: സ്മാർട്ട്ഫോൺ ബ്രാൻഡായ റിയൽമീക്കെതിരെ ഉയർന്ന ആരോപണം അന്വേഷിക്കുമെന്ന് ഐടി മന്ത്രി രാജീവ് ചന്ദ്രശേഖർ അറിയിച്ചു. റിയൽമി എൻഹാൻസ്ഡ് ഇന്റലിജന്റ് സർവീസസ് എന്ന ഫീച്ചർ ഉപയോഗിച്ച് ഉപഭോക്താക്കളുടെ വിവരങ്ങൾ ശേഖരിച്ചുവെന്ന ആരോപണം കഴിഞ്ഞ ദിവസമാണ് ഉയർന്നത്.  ഋഷി ബാഗ്രീ എന്ന ഉപയോക്താവാണ് ട്വിറ്റർ വഴി ഇതിനെക്കുറിച്ച് പങ്കുവെച്ചത്. ",
-      title:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam autipsam voluptates facere numquam ut possimus voluptatum placeat,commodi aperiam?"
+      title:" വാട്ട്സ്ആപ്പിലെ 'ശല്യം വിളികളെ' ഒഴിവാക്കാം; കാത്തിരുന്ന ഫീച്ചര്‍ എത്തി.!"
     },
     {
       id: 5,

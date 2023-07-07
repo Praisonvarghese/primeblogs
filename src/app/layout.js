@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "PrimeBlogs",
   description: "Prime Blogs from Tech Prime Malayalam",
+  
 };
 
 export default function RootLayout({ children }) {
