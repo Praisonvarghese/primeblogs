@@ -10,7 +10,7 @@ const Updates = () => {
         <div className={styles.right}>
           <h1 className={styles.title}>Updates</h1>
           <p className={styles.subtitle}>
-            Explore the boundaries of art and technology with Liverr's AI
+            Explore the boundaries of art and technology with Liverr&#39;s AI
             artists
           </p>
           <UpdateCard />

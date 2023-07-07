@@ -8,7 +8,7 @@ const Videos = () => {
       <div className={styles.container}>
         <h1 className={styles.title}>Videos</h1>
         <p className={styles.subtitle}>
-          Explore the boundaries of art and technology with Liverr's AI artists
+          Explore the boundaries of art and technology with Liverr&#39;s AI artists
         </p>
         <div className={styles.cards}>
         {videos.map((video) => (
