@@ -1,0 +1,36 @@
+.container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 5px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap:10px;
+   
+}
+.icon {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  @media screen  and (max-width:480px){
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+    .social{
+        gap: 50px;
+    }
+    .content{
+        font-size: 15px;
+        font-weight: 300;
+    }
+  }

@@ -1,0 +1,47 @@
+.updates{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1400px;
+    display: flex;    
+    padding: 30px 10px;
+}
+
+.right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+   
+}
+.title{
+    font-size: 25px;
+}
+.subtitle{
+    margin-top: 20px;
+    color: gray;
+    font-size: 13px;
+}
+.hr{
+    height: 0;
+    border: .5px solid lightgray;
+    margin: 30px 0px;
+}
+.left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+
+@media screen  and (max-width:480px){
+    .left{
+        display: none;
+    }
+    .right{
+        margin: 10px 5px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+}
