@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 0px;
-  position: relative;
+  
 }
 .logo {
   font-size: 34px;
@@ -66,12 +66,22 @@
 }
 
 @media screen  and (max-width:480px){
+  .navbar{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    
+    background-color: white;
+  }
+
   .links,.menu{
     display: none;
   }
   .container{
     width: 100%;
     padding: 10px 10px;
+    
   }
   .text{
     font-size: 26px;
@@ -100,9 +110,10 @@
     z-index: 9999;
     margin-top:5px ;
     padding: 10px 20px;
-    height: 95vh;
+    height: 100vh;
     font-weight: bold;
     justify-content: space-around;
     transition: 1s all ease;
+    
   }
 }

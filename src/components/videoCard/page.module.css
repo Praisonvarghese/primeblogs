@@ -1,36 +1,37 @@
-.catCard{
-    width: 324px;
-    height: 370px;
-    border-radius:5px ;
-    cursor: pointer;
-    margin-bottom: 25px;
-    border:1px solid lightgray
+.catCard {
+  width: 324px;
+  height: 370px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  border: 1px solid lightgray;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.info{
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.info {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.user{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 10px;
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
 }
-.pp{
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
+.pp {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
 }
-.desc{
-    color: #111;
-    text-align: left;
-    font-size: 15px;
-    font-weight: bold;
+.desc {
+  color: #111;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
 }
+
