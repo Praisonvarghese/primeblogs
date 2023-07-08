@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const VideoCard = ({ item }) => {
   return (
-    <Link href={`/blog/${item.url}`}>
+    <Link href={`/blog/${item.id}`}>
       <div className={styles.catCard}>
         <div className={styles.container}>
           {item?.url ? (

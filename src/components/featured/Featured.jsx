@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import { items } from "./data.js";
 import Image from "next/image";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
+import Link from "next/link";
 
 const FeaturedBlogs = () => {
   const [showBlog, setShowBlog] = useState(0);
@@ -25,7 +26,6 @@ const FeaturedBlogs = () => {
       }
     }
   };
-  console.log(showBlog);
 
   return (
     <div className={styles.container}>
@@ -48,7 +48,10 @@ const FeaturedBlogs = () => {
                 height={550}
                 className={styles.image}
               />
-              <h2>{item?.desc}</h2>
+
+              <h2>
+                <Link href={"blog/123"}>{item?.desc}</Link>
+              </h2>
             </div>
           ))}
           <AiOutlineArrowRight
@@ -75,7 +78,10 @@ const FeaturedBlogs = () => {
                 height={250}
                 className={styles.image}
               />
-              <h2>{item?.desc}</h2>
+
+              <h2>
+                <Link href={"blog/123"}>{item?.desc}</Link>
+              </h2>
             </div>
           ))}
           <AiOutlineArrowRight
@@ -83,8 +89,6 @@ const FeaturedBlogs = () => {
             className={styles.rightArrow}
           />
         </div>
-
-
 
         <div className={styles.dots}>
           {items?.map((item, index) => (

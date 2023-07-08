@@ -1,0 +1,106 @@
+.blog {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1400px;
+  display: flex;
+  padding: 30px 10px;
+}
+
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blogInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.username {
+  font-weight: bold;
+  font-size: 20px;
+}
+.time {
+  font-weight: 300;
+  font-size: 15px;
+  color: #797777;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.imageContainer {
+  height: 300px;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #5e5e5e;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+.text {
+  line-height: 30px;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .right {
+    width: 100%;
+  }
+  .left {
+    display: none;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .username {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .content {
+    font-size: 18px;
+  }
+  .container {
+    margin: 0px 10px;
+  }
+  .author {
+    margin-top: 10px;
+  }
+}
