@@ -19,7 +19,7 @@ const BlogPost = () => {
         </div>
         <div className={styles.info}>
           <h1 className={styles.title}>
-          വാട്ട്സ്ആപ്പിലെ 'ശല്യം വിളികളെ' ഒഴിവാക്കാം; കാത്തിരുന്ന ഫീച്ചര്‍ എത്തി.!
+          വാട്ട്സ്ആപ്പിലെ &#39;ശല്യം വിളികളെ&#39; ഒഴിവാക്കാം; കാത്തിരുന്ന ഫീച്ചര്‍ എത്തി.!
           </h1>
         </div>
         <div className={styles.author}>
