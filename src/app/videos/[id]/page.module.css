@@ -77,14 +77,14 @@
     font-size: 18px;
   }
   .container {
-    margin: 0px 10px;
+    justify-content: c;
   }
   .author {
     margin-top: 10px;
     margin-bottom: 150px;
   }
   .videoframe{
-    width: 324px;
+    width: 355px;
     height: 200px;
   }
   .avatar {
